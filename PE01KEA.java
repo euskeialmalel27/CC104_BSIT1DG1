@@ -50,13 +50,13 @@ int num = scanner.nextInt();
    System.out.print("Enter third number: ");
    int n3 = scanner.nextInt();
 
-  if (n1 > n2 || n1 > n3){
+  if (n1 > n2 && n1 > n3){
    System.out.println("n1 is greater than others");
   }
-  else if (n2 > n3 || n2 > n1){
+  else if (n2 > n3 && n2 > n1){
    System.out.println("n2 is greater than others");
   }
-  else if (n3 > n1 || n3 > n2){
+  else
    System.out.println("n3 is greater than others");
   }
  }
